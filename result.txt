@@ -1,0 +1,76 @@
+==========full version==========
+Dataset: 0; use_attr: 1; use_name: 1; use_trans: 1; use_stru: 1; use_rel: 1; GW_ss: 0.01; GW_iter: 1440 
+0.987	0.997	0.991	466	0.994	0.980	0.987
+Dataset: 1; use_attr: 1; use_name: 1; use_trans: 1; use_stru: 1; use_rel: 1; GW_ss: 0.01; GW_iter: 840 
+0.991	0.998	0.994	299	0.996	0.987	0.992
+Dataset: 2; use_attr: 1; use_name: 1; use_trans: 1; use_stru: 1; use_rel: 1; GW_ss: 0.01; GW_iter: 120 
+0.998	1.000	0.999	111	0.998	0.997	0.998
+Dataset: 3; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 1; use_rel: 1; GW_ss: 0.01; GW_iter: 1820 
+0.996	0.999	0.997	503	0.999	0.992	0.995
+Dataset: 4; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 1; use_rel: 1; GW_ss: 0.01; GW_iter: 1020 
+0.997	1.000	0.998	312	0.998	0.995	0.997
+Dataset: 5; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 1; use_rel: 1; GW_ss: 0.02; GW_iter: 940 
+0.799	0.906	0.839	131	0.939	0.732	0.823
+Dataset: 6; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 1; use_rel: 1; GW_ss: 0.01; GW_iter: 1980 
+0.917	0.983	0.940	608	0.952	0.903	0.927
+==========only attributes==========
+Dataset: 0; use_attr: 1; use_name: 0; use_trans: 0; use_stru: 1; use_rel: 1; GW_ss: 0.01; GW_iter: 1640 
+0.929	0.978	0.948	526	0.967	0.904	0.934
+Dataset: 1; use_attr: 1; use_name: 0; use_trans: 0; use_stru: 1; use_rel: 1; GW_ss: 0.01; GW_iter: 1700 
+0.922	0.974	0.942	533	0.965	0.900	0.931
+Dataset: 2; use_attr: 1; use_name: 0; use_trans: 0; use_stru: 1; use_rel: 1; GW_ss: 0.01; GW_iter: 1100 
+0.967	0.994	0.978	389	0.982	0.952	0.966
+===========only translated name============
+Dataset: 0; use_attr: 0; use_name: 1; use_trans: 1; use_stru: 1; use_rel: 1; GW_ss: 0.01; GW_iter: 1760 
+0.959	0.983	0.969	547	0.983	0.948	0.965
+Dataset: 1; use_attr: 0; use_name: 1; use_trans: 1; use_stru: 1; use_rel: 1; GW_ss: 0.01; GW_iter: 1360 
+0.982	0.995	0.987	434	0.992	0.975	0.983
+Dataset: 2; use_attr: 0; use_name: 1; use_trans: 1; use_stru: 1; use_rel: 1; GW_ss: 0.01; GW_iter: 500 
+0.994	0.999	0.996	215	0.997	0.993	0.995
+===========only untranslated name============
+Dataset: 0; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 1; use_rel: 1; GW_ss: 0.01; GW_iter: 1980 
+0.926	0.967	0.942	613	0.970	0.910	0.939
+Dataset: 1; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 1; use_rel: 1; GW_ss: 0.01; GW_iter: 1560 
+0.954	0.981	0.964	494	0.981	0.943	0.961
+Dataset: 2; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 1; use_rel: 1; GW_ss: 0.01; GW_iter: 200 
+0.996	0.999	0.997	132	0.998	0.994	0.996
+===========ablation study==============
+Dataset: 0; use_attr: 1; use_name: 1; use_trans: 1; use_stru: 0; use_rel: 1; GW_ss: 0.01; GW_iter: 0 
+0.951	0.979	0.962	42	0.985	0.929	0.956
+Dataset: 0; use_attr: 1; use_name: 1; use_trans: 1; use_stru: 1; use_rel: 0; GW_ss: 0.01; GW_iter: 0 
+0.970	0.990	0.977	49	0.992	0.955	0.973
+Dataset: 0; use_attr: 1; use_name: 1; use_trans: 1; use_stru: 0; use_rel: 0; GW_ss: 0.01; GW_iter: 0 
+0.938	0.975	0.952	20	0.982	0.907	0.943
+Dataset: 0; use_attr: 1; use_name: 1; use_trans: 1; use_stru: 1; use_rel: 1; GW_ss: 0.01; GW_iter: 0 
+0.975	0.992	0.981	73	0.992	0.962	0.977
+Dataset: 3; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 0; use_rel: 1; GW_ss: 0.01; GW_iter: 0 
+0.966	0.982	0.972	24	0.992	0.953	0.972
+Dataset: 3; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 1; use_rel: 0; GW_ss: 0.01; GW_iter: 0 
+0.976	0.987	0.980	44	0.994	0.965	0.979
+Dataset: 3; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 0; use_rel: 0; GW_ss: 0.01; GW_iter: 0 
+0.959	0.979	0.966	16	0.989	0.943	0.966
+Dataset: 3; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 1; use_rel: 1; GW_ss: 0.01; GW_iter: 0 
+0.979	0.989	0.983	49	0.995	0.970	0.982
+Dataset: 5; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 0; use_rel: 1; GW_ss: 0.02; GW_iter: 0 
+0.527	0.584	0.550	9	0.896	0.455	0.604
+Dataset: 5; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 1; use_rel: 0; GW_ss: 0.02; GW_iter: 0 
+0.668	0.760	0.702	20	0.926	0.578	0.711
+Dataset: 5; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 0; use_rel: 0; GW_ss: 0.02; GW_iter: 0 
+0.525	0.580	0.547	6	0.894	0.452	0.601
+Dataset: 5; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 1; use_rel: 1; GW_ss: 0.02; GW_iter: 0 
+0.672	0.767	0.707	24	0.924	0.585	0.717
+Dataset: 6; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 0; use_rel: 1; GW_ss: 0.01; GW_iter: 0 
+0.661	0.684	0.672	26	0.952	0.614	0.746
+Dataset: 6; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 1; use_rel: 0; GW_ss: 0.01; GW_iter: 0 
+0.873	0.956	0.900	41	0.987	0.826	0.900
+Dataset: 6; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 0; use_rel: 0; GW_ss: 0.01; GW_iter: 0 
+0.611	0.626	0.618	15	0.975	0.566	0.716
+Dataset: 6; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 1; use_rel: 1; GW_ss: 0.01; GW_iter: 0 
+0.878	0.955	0.904	51	0.958	0.847	0.899
+==========hard version==========
+Dataset: 0; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 1; use_rel: 0; GW_ss: 0.01; GW_iter: 1980 
+0.756	0.868	0.796	582	0.878	0.714	0.787
+Dataset: 1; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 1; use_rel: 0; GW_ss: 0.01; GW_iter: 1980 
+0.788	0.897	0.828	582	0.896	0.743	0.812
+Dataset: 2; use_attr: 0; use_name: 1; use_trans: 0; use_stru: 1; use_rel: 0; GW_ss: 0.01; GW_iter: 980 
+0.983	0.997	0.988	334	0.994	0.972	0.983
