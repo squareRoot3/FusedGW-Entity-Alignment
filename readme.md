@@ -3,7 +3,9 @@
 This is a Python implementation of 
 
 > [A Fused Gromov-Wasserstein Framework for Unsupervised Knowledge Graph Entity Alignment](https://aclanthology.org/2023.findings-acl.205)
-> ***Jianheng Tang**, Kangfei Zhao, Jia Li*  
+> 
+> ***Jianheng Tang**, Kangfei Zhao, Jia Li*
+> 
 > ACL 2023 (Findings) 
 
 Dependencies
